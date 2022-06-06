@@ -6,5 +6,5 @@ import { MeStessoComponent } from './me-stesso/me-stesso.component';
 export const AppRoutes: Routes = [
   { path: '', component: IoComponent },
   { path: 'Me', component: MeComponent },
-  { path: 'Me Stesso', component: MeStessoComponent }
+  { path: 'Me Stesso/:id', component: MeStessoComponent }
 ];
